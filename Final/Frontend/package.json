@@ -1,0 +1,59 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@react-oauth/google": "^0.2.6",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.11.43",
+    "@types/react": "^18.0.15",
+    "@types/react-csv": "^1.1.3",
+    "@types/react-dom": "^18.0.6",
+    "@types/react-router": "^5.1.18",
+    "axios": "^0.27.2",
+    "bootstrap": "^5.2.0",
+    "excel": "^1.0.1",
+    "express": "^4.18.1",
+    "file-saver": "^2.0.5",
+    "firebase": "^9.9.0",
+    "jwt-decode": "^3.1.2",
+    "node-sass": "^7.0.1",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.5.0",
+    "react-csv": "^2.2.2",
+    "react-csv-downloader": "^2.8.0",
+    "react-dom": "^18.2.0",
+    "react-export-excel-xlsx-fix": "^0.5.3",
+    "react-router": "^6.3.0",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.1",
+    "react-select": "^5.4.0",
+    "reactstrap": "^9.1.3",
+    "toastr": "^2.1.4",
+    "typescript": "^4.7.4",
+    "web-vitals": "^2.1.4",
+    "write-excel-file": "^1.4.10"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "postinstall": "tsc"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
